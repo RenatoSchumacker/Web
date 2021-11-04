@@ -93,6 +93,9 @@
     background-color: #082373;
     padding: 50px;
 }
+.img-fluid {
+    width: 100%;
+}
 .novidades .text-body{
     width: 80%;
     margin: 70px auto;
@@ -130,15 +133,16 @@
 }
 /* css Footer*/
 .rodape {
-    padding: 50px 50px 0;
+    padding: 50px 50px 0;  
 }
+
 .rodape .info-contato p {
     margin: 0px;
 }
 .rodape a {
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
 }
 .rodape a:hover {
     font-weight: bold;
@@ -157,16 +161,15 @@
 /* css contatos */
 .contact{
     padding: 0%;
-    height: 700px;
+    height: 450px;
+    width: 100%;
+    background-color: #ff9b00;   
 }
-.col-md-4{
+.contact-info {
+    margin-top: 10%;
     background: #ff9b00;
     padding: 0%;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-}
-.contact-info{
-    margin-top:5%;
+    
 }
 .contact-info img{
     margin-bottom: 5%;
@@ -175,10 +178,10 @@
     margin-bottom: 5%;
 }
 .col-md-9{
-    background: #fff;
     padding: 3%;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+    
 }
 .contact-form label{
     font-weight:600;
