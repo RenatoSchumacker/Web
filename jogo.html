@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Site</title>
     <link rel="icon" href="" type="image/jpg" sizes="16x16">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
@@ -16,7 +16,7 @@
         <nav class="menu_top">
             <img class="img-logo" src="img/senai.png" alt="Logo Senai">
             <ul class="menu">
-                <a class="linkMenu" href="jogo.html">Jogos</a>
+                <a class="linkMenu" href="jogos.html">Jogos</a>
                 <a class="linkMenu" href="hardware.html">Hardware</a> 
                 <a class="linkMenu" href="celulares.html">Celulares</a>
                 <a class="linkMenu" href="pc-gamer.html">PC Gamer</a>
@@ -25,30 +25,6 @@
             </ul>
         </nav>
     </header>
-
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-                <img class="d-block w-100" src="img/img1.jpeg" alt="Primeiro Slide">
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img class="d-block w-100" src="img/img2.jpg" alt="Segundo Slide">
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img class="d-block w-100" src="img/img3.jpg" alt="Terceiro Slide">
-            </div>
-        </div>           
-                <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </button>
-
-                <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Proximo</span>
-                </button>           
-    </div>
-
     <div class="section-banner-home">
         <div class="container-fluid">
             <div class="row m-0">
@@ -65,7 +41,7 @@
                             recusandae molestiae cupiditate deserunt accusantium assumenda molestias asperiores nam
                             aspernatur iure, exercitationem libero temporibus iusto sed quidem! Beatae, quam.
                         </p>
-                        <a href="jogo.html">Saiba mais</a>
+                        <a href="jogos.html">Saiba mais</a>
                     </section>
                 </div>
             </div>
@@ -83,7 +59,7 @@
                 <!-- Início da Imagem 1 -->
                 <div class="col-6 col-md-2 pr-0">
                     <figure>
-                        <a href="/jogo.html">
+                        <a href="/jogos.html">
                             <img src="img/mario-bros.jpg" alt="galeria" width="100%">
                         </a>
                     </figure>
@@ -93,7 +69,7 @@
                 <!-- inicio da imagem 2 -->
                 <div class="col-6 col-md-2 pr-0">
                     <figure>
-                        <a href="/jogo.html">
+                        <a href="/jogos.html">
                             <img src="img/mario-bros.jpg" alt="galeria" width="100%">
                         </a>
                     </figure>
@@ -103,7 +79,7 @@
                 <!-- inicio da imagem 3 -->
                 <div class="col-6 col-md-2 pr-0">
                     <figure>
-                        <a href="/jogo.html">
+                        <a href="/jogos.html">
                             <img src="img/mario-bros.jpg" alt="galeria" width="100%">
                         </a>
                     </figure>
@@ -113,7 +89,7 @@
                 <!-- inicio da imagem 4 -->
                 <div class="col-6 col-md-2 pr-0">
                     <figure>
-                        <a href="/jogo.html">
+                        <a href="/jogos.html">
                             <img src="img/mario-bros.jpg" alt="galeria" width="100%">
                         </a>
                     </figure>
@@ -123,7 +99,7 @@
                 <!-- inicio da imagem 5 -->
                 <div class="col-6 col-md-2 pr-0">
                     <figure>
-                        <a href="/jogo.html">
+                        <a href="/jogos.html">
                             <img src="img/mario-bros.jpg" alt="galeria" width="100%">
                         </a>
                     </figure>
@@ -133,7 +109,7 @@
                 <!-- Início Saiba Mais -->
                 <div class="col-12">
                     <section>
-                        <a href="/jogo.html"> Saiba Mais </a>
+                        <a href="/jogos.html"> Saiba Mais </a>
                     </section>
                 </div>
                 <!-- Fim Saiba Mais -->
@@ -158,6 +134,8 @@
             </div>
         </div>
     </div>
+    
+
     <!-- Início Galeria --->
         <div class="galeria d-flex align-items-center">
             <div class="container">
@@ -244,16 +222,9 @@
                         <footer class="rodape">
                             <div class="container">
                                 <div class="row m-0">
-                                    <!-- inicio do loga -->
-                                    <div class="col-md-4">
-                                        <figure>
-                                            <img src="img/senai.png" alt="logo-rodape" width="40%">
-                                        </figure>
-                                    </div> 
-                                    <!-- fim do logo -->
 
                                     <!-- inicio do texto  -->
-                                    <div class="col-md-4">
+                                    <div class="col-5">
                                         <div class="info-contato">
                                             <p>email:</p>
                                             <p>example@gmail.com</p><br>
@@ -280,10 +251,70 @@
                                         <a href="#">Hardware</a><br>
                                         <a href="#">Celulares</a><br>
                                         <a href="#">pc-gamer</a><br>
-                                        <a href="file:///Z:/CT%20TI%20D/Renato%20Schumacker/_git/HTML/Web/EP2%2006-10/contato.html">Contato</a><br>
+                                        <a href="#">Contato</a><br>
                                         <a href="#">Login</a><br>
                                     </div>
                                     <!-- fim das midias sociais-->
+
+                                    <!-- formulario para contato-->
+
+                                    <div class="container contact">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="contact-info">
+                                                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                                                    <h2>Entre em contato!</h2>
+                                                    <h4>Será um prazer ouvir você!</h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="contact-form">
+                                                    <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="fname">Primeiro Nome:</label>
+                                                    <div class="col-sm-10">          
+                                                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                                                    </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="lname">Último Nome:</label>
+                                                    <div class="col-sm-10">          
+                                                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                                                    </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="email">E-mail:</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                                    </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="comment">Mensagem:</label>
+                                                    <div class="col-sm-10">
+                                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                                    </div>
+                                                    </div>
+                                                    <div class="form-group">        
+                                                    <div class="col-sm-offset-2 col-sm-10">
+                                                        <button type="submit" class="btn btn-default">Enviar</button>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <!-- Fim do formulario para contato-->                                 
+                                                                  
+                                      <!-- inicio do loga -->
+                                    <div class="col-md-5">
+                                        <figure>
+                                            <img src="img/senai.png" alt="logo-rodape" width="40%">
+                                        </figure>
+                                    </div> 
+                                    <!-- fim do logo -->
+
                                     <!-- inicio dos direitos autorais-->
                                     <div class="col-12">
                                         <p class="direitos">Direitos Autorais</p>
