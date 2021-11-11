@@ -1,0 +1,206 @@
+/* CCS */
+.menu_top {
+    width: 100%;height: 80px;
+}
+/* Seletores destacados em vermelho*/
+.menu_top img{
+    float: left;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.navbar .nav-item .nav-link{
+    text-decoration: none;
+    margin: 30px 8px 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: 'montserrat';*/
+    position: relative;
+    color: red;
+    left: 50%;
+    top: 30px;
+    position: initial;
+}
+.navbar-toggler {
+    background-color: white;
+    border: 2px solid red;
+    height: auto;
+    width: auto;
+    
+
+}
+.menu_top .menu .login{
+    background-color: red;
+    color: #fff;
+    padding: 10px 12px;
+}
+.section-banner-home{
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    margin: 30px;
+    background-color: blue;
+}
+.section-banner-home img{
+    height: 400px;
+}
+.section-banner-home .texto-banner{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.section-banner-home .texto-banner h1{
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.section-banner-home .texto-banner p{
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+.section-banner-home .texto-banner a{
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 4px 14px;
+    font-size: 15px;
+}
+/*css Destaque*/
+
+.destaque {
+    margin-top: 150px;
+}
+
+.destaque h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.destaque p{
+    width: 77%;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+}
+.destaque figcaption{
+    font-size: 13px;
+}
+.destaque a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #30dcf4;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+/* css novidades */
+.novidades{
+    background-color: #082373;
+    padding: 50px;
+}
+.img-fluid {
+    width: 100%;
+}
+.novidades .text-body{
+    width: 80%;
+    margin: 70px auto;
+}
+.novidades h2{
+    color: #fff;
+    font-size: 26px;
+    width: 70%;
+}
+.novidades p{
+    color: #fff;
+}
+.novidades a{
+    color: black;
+    text-decoration: none;
+    padding: 6px;
+    background-color: white;
+    font-weight: 400;
+}
+/* css galeria full*/
+.galeria {
+    margin: 60px auto 20px;
+}
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+.galeria .gallery {
+    margin: 10px auto 10px;
+}
+/* css Footer*/
+.rodape {
+    padding: 50px 50px 0;  
+}
+
+.rodape .info-contato p {
+    margin: 0px;
+}
+.rodape a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.rodape a:hover {
+    font-weight: bold;
+}
+.rodape .redes-sociais {
+    display: inline-block;
+}
+.rodape .redes-sociais img {
+    width: 45px;
+    height: 40px;
+}
+.rodape p.direitos {
+    text-align: center;
+    margin-top: 40px;
+}
+/* css contatos */
+.contact{
+    padding: 0%;
+    height: 450px;
+    width: 100%;
+    background-color: #ff9b00;   
+}
+.contact-info {
+    margin-top: 10%;
+    background: #ff9b00;
+    padding: 0%;
+    
+}
+.contact-info img{
+    margin-bottom: 5%;
+}
+.contact-info h2{
+    margin-bottom: 5%;
+}
+.col-md-9{
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 15%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
