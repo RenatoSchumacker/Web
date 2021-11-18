@@ -8,42 +8,32 @@
     <title>Meu Primeiro Site</title>
     <link rel="icon" href="" type="image/jpg" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles_3.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-ligth bg-ligth">
-        <a class="navbar-brand" href="index.html"><img src="img/senai.png" alt=""></a>
-        <button class="navbar-toggler type=button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterar navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="jogo.html">Jogos <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="hardware.html">Hardware</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="celulares.html">Celulares</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="pc-gamer.html">PC Gamer</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contato.html">Contato</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="login.html">Login</a>
-                </li>
-            </ul>
-        </div>
-
-    </nav>
-
+    <!-- inicio menu resp-->
     
-<!-- inicio carrocel-->
+    <header id="header">
+        <a id="logo" href="index_1.html"><img src="img/senai.png" alt="Logo Senai"></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a class="linkmenu" href="jogo.html">Jogos</a></li>
+                <li><a class="linkmenu" href="hardware.html">Hardware</a></li>
+                <li><a class="linkmenu" href="Contato.html">Contatos</a></li>
+                <li><a class="linkmenu" href="celulares.html">Celulares</a></li>
+                <li><a class="linkmenu" href="pc-gamer.html">PC Gamer</a></li>
+                <li><a class="linkmenu" href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+  
+    <!---------------- inicio carrocel ----------------->
+
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3500">
@@ -58,12 +48,12 @@
         </div>           
                 <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" role="button" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
+                    <span class="sr-only"></span>
                 </button>
 
                 <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" role="button" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Proximo</span>
+                    <span class="sr-only"></span>
                 </button>           
     </div>
 <!-- fim carrocel-->
@@ -317,7 +307,7 @@
 </body>
 
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
 <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script src="js/script-menu.js"></script>
 
 </html>
